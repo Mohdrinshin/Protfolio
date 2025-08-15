@@ -1,0 +1,1 @@
+// JavaScript code has been removed as requested

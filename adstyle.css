@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftSideName {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 60px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    color: #141414; 
+}
+
+
+#nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #6b6969;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #6b6969; 
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#nav a:hover  {
+    color: #181717; 
+}
+
+
+
+.arrow {
+    display: inline-block;
+    margin-left: 7px;
+    width: 5px;
+    height: 5px;
+    border-left: 1.5px solid #6b6969; 
+    border-bottom: 1.5px solid #6b6969;
+    margin-bottom: 3px;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease; 
+
+#nav li:hover .arrow {
+    border-left: 1.5px solid #000; 
+    border-bottom: 1.5px solid #000;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 100px;
+    position: relative;
+    align-items: center;
+    top: -50px;
+    color: #555;
+    cursor: pointer;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+}
+.navbar{
+    width: 100%;
+}
+#rightSideLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+   
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+#centerNames:hover{
+    color: black;
+}
+.social-icons a:hover  {
+    color: #000; 
+}
+.navbar :hover{
+    color: black;
+}
+.body{
+    width: 100%;
+    height: 600px;
+    background-color:  #eee6e653;
+}
+.about-text{
+    position: absolute;
+    text-align: left;
+    right: 0px;
+    top: 200px;
+    width: 60%;
+    font-family: 'Montserrat', sans-serif;
+    color: #555;
+    letter-spacing: 2;
+}
+.about-details{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top : -350px;
+    left: 610px;
+   align-content: center;
+}
+

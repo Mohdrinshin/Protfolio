@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftSideName {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin-left: 60px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 500; 
+    font-size: 20px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    color: #141414; 
+}
+
+
+#nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    color: #6b6969; 
+}
+
+#nav a {
+    text-decoration: none;
+    color: #6b6969; 
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: block;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+#nav a:hover  {
+    color: #181717; 
+}
+
+
+
+.arrow {
+    display: inline-block;
+    margin-left: 7px;
+    width: 5px;
+    height: 5px;
+    border-left: 1.5px solid #6b6969; 
+    border-bottom: 1.5px solid #6b6969;
+    margin-bottom: 3px;
+    transform: rotate(-45deg);
+    transition: transform 0.3s ease; 
+
+#nav li:hover .arrow {
+    border-left: 1.5px solid #000; 
+    border-bottom: 1.5px solid #000;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    margin-right: 100px;
+    position: relative;
+    align-items: center;
+    top: -50px;
+    color: #555;
+    cursor: pointer;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+}
+.navbar{
+    width: 100%;
+}
+#rightSideLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+   
+}
+.social-icons{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+#centerNames:hover{
+    color: black;
+}
+.social-icons a:hover  {
+    color: #000; 
+}
+.navbar :hover{
+    color: black;
+}
+.contact{
+    background-color: #eee6e653;
+    width: 100%;
+    height: 800px;
+    top: -50px;
+    position: relative;
+}
+#content-input,input{
+    font-family: 'Montserrat', sans-serif;
+   outline: none;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom: 1px solid #555;
+
+    color: #555;
+    background-color: #eee6e624; 
+    opacity: 0.9;
+    width: 550px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    top: 40px;
+    left:50px ;
+overflow:scroll;
+
+    
+}
+.content-input .send-btn:hover::after{
+    width: 80px;
+} 
+.msg{
+ height: 100px;
+}
+.inputname,.inputemail{
+    height: 50px;
+
+}
+#content-input input:focus{
+    border-bottom: 2px solid #ff6600;
+}
+.contact-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    position: relative;
+    left: 50px;
+    top :50px;
+}
+#butn{
+   position: relative;
+   top: 40px;
+   left: 50px;
+   border: none;
+   border-bottom: 1px solid #555;
+   color: #272626;
+   background-color:  #eee6e624;
+   height: 50px;
+   width: 50px;
+   cursor: pointer;
+   font-family: 'Montserrat', sans-serif;
+    
+}
+#butn:hover:hover{
+   background-color:  #eee6e628;
+    color: black;
+    font-weight: bold;
+    border-bottom: #000 solid 2px;
+}
+ #content-input:focus{
+    background-color:  #eee6e628;
+    color: black;
+    font-weight: bold;
+    border-bottom: #000 solid 2px;
+ }
+ .time{
+    position: relative;
+    text-align: center;
+    top: -310px;
+    right:-250px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1;
+    color: #555;
+ }
+ .quick{
+       font-family: 'Montserrat', sans-serif;
+    color: #333;
+    position: relative;
+    left: 50px;
+    top :-50px;
+    cursor: pointer;
+   
+}
+.quick a{
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+#content-input,input,textarea{
+    font-family: 'Montserrat', sans-serif;
+   outline: none;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom: 1px solid #555;
+
+    color: #555;
+    background-color: #eee6e624; 
+    opacity: 0.9;
+    width: 550px;
+    transition: border-color 0.3s ease;
+    position: relative;
+    top: 40px;
+    left:50px ;
+    overflow:auto;
+    resize: none;
+}
